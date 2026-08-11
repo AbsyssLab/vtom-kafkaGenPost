@@ -20,11 +20,11 @@ Consulting days can be requested for implementation.
 
 # Instructions
   * Windows :
-    * Place the file `kafkaGenPost.py` in the `%ABM_BIN%` directory (or your scripts directory)
+    * Place the file `kafkaGenPost.py` in the `%ABM_BIN%` directory
     * Declare the queue / custom application on the agent (see administrator guide)
 
   * Linux/Unix :
-    * Place the file `kafkaGenPost.py` in the `$TOM_ADMIN` directory (or your scripts directory)
+    * Place the file `kafkaGenPost.py` in the `$TOM_ADMIN` directory
     * Declare the queue / custom application on the agent (see administrator guide)
 
   * Create a "Generic Resource" in Visual TOM with the following definition or import the KafkaGenPost.xml file:

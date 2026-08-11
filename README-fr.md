@@ -20,11 +20,11 @@ Il est possible de faire appel a des jours de consulting pour l'implementation.
 
 # Consignes
   * Windows :
-    * Placer le fichier `kafkaGenPost.py` dans le repertoire `%ABM_BIN%` (ou votre repertoire de scripts)
+    * Placer le fichier `kafkaGenPost.py` dans le repertoire `%ABM_BIN%`
     * Declarer la queue / application custom sur l'agent (voir guide administrateur)
 
   * Linux/Unix :
-    * Placer le fichier `kafkaGenPost.py` dans le repertoire `$TOM_ADMIN` (ou votre repertoire de scripts)
+    * Placer le fichier `kafkaGenPost.py` dans le repertoire `$TOM_ADMIN`
     * Declarer la queue / application custom sur l'agent (voir guide administrateur)
 
   * Créer dans Visual TOM une "Ressource Générique" avec la définition suivante ou importer le fichier KafkaGenPost.xml:
