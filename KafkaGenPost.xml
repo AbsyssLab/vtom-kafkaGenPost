@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Domain name="labc" stamp="VTEXPORT : 7.3.2d EN LINUX_X64 2026/07/15 Visual Tom (c) Absyss" version="7.3.2d" generationDate="Tue Aug 11 10:27:06 2026">
+  <Calendars/>
+  <Queues>
+    <Queue name="queue_rcgen" comment="Queue created by vtmigrate for compatibility of existing generic resources"/>
+  </Queues>
+  <Resources>
+    <Resource name="GenKafkaPost" comment="" type="G" host="localhost" user="vtom" queue="queue_rcgen">
+      <Script><![CDATA[/opt/absyss/vtom/admin/kafkaGenPost.py]]></Script>
+      <Parameters>
+        <Parameter><![CDATA["localhost:9092"]]></Parameter>
+        <Parameter><![CDATA[demo-topic]]></Parameter>
+        <Parameter><![CDATA["VTOM_ID"]]></Parameter>
+      </Parameters>
+    </Resource>
+  </Resources>
+</Domain>
